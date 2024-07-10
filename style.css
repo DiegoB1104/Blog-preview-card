@@ -1,0 +1,90 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+
+.contenedor {
+  background-color: hsl(0, 0%, 100%);
+  width: 370px;
+  height: 470px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px;
+  border: 1px solid;
+}
+
+.contenedor-imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen {
+  width: 339px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: -7px;
+}
+
+.texto {
+  margin-left: 15px;
+}
+
+.texto h5 {
+  background-color: hsl(47, 88%, 63%);
+  width: 60px;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: -3px;
+  font-size: 14px;
+}
+
+.texto p {
+  color: hsl(0, 0%, 7%);
+  font-size: 12.5px;
+}
+
+.texto h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.parrafo-final {
+  line-height: 22px;
+  font-size: 14px;
+  margin-left: 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+/* Avatar */
+.avatar {
+  display: flex;
+  align-items: center;
+}
+.imagen-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.avatar p {
+  font-size: 12px;
+  font-weight: bold;
+}
